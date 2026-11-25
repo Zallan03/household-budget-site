@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>RumahKas — Household Budget</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="top">
+  <div class="wrap top-in">
+    <a class="brand" href="#/">
+      <span class="brand-mark">Rp</span>
+      <span class="brand-text"><strong>RumahKas</strong><em>Household Budget, Made Simple</em></span>
+    </a>
+    <nav class="nav" aria-label="Sections">
+      <a href="#/" data-route="">Dashboard</a>
+      <a href="#/planner" data-route="planner">Planner</a>
+      <a href="#/tracker" data-route="tracker">Tracker</a>
+      <a href="#/goals" data-route="goals">Goals</a>
+      <a href="#/learn" data-route="learn">Learn</a>
+    </nav>
+  </div>
+</header>
+<main class="wrap" id="view" aria-live="polite"></main>
+<footer class="foot">
+  <div class="wrap">
+    <p><strong>RumahKas</strong> is an original household-budget tool. The Pratama
+    family shown here is a worked example — replace the figures with your own
+    in the Planner and the whole site follows.</p>
+    <p>All figures are in Indonesian rupiah (Rp). The site stores your own
+    entries in your browser only; nothing is sent anywhere.</p>
+  </div>
+</footer>
+<script src="data.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
